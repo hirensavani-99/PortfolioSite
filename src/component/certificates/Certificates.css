@@ -1,0 +1,53 @@
+.Certificates {
+    margin: 0 20%;
+}
+
+.carousel {
+    cursor: grab;
+    overflow: hidden;
+}
+
+.item {
+    min-height: 40rem;
+    min-width: 30rem;
+    padding: 40px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    
+}
+
+.inner-carousel {
+    display: flex;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    .Certificates {
+        margin: 0 10%;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    .Certificates {
+        margin: 0 2%;
+    }
+
+    .item {
+        min-height: 40rem;
+        min-width: 30rem;
+        padding: 40px;
+    }
+
+    .item img {
+        width: 90%;
+        height: 100%;
+        border-radius: 2rem;
+    }
+}
