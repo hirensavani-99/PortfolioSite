@@ -47,6 +47,17 @@ header {
     border-bottom: 2rem solid var(--color-primary-variant);
 }
 
+.progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: var(--color-primary);
+    transform-origin: 0%;
+}
+
+
 .scroll__down {
     position: absolute;
     right: -2.3rem;

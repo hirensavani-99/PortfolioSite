@@ -25,7 +25,7 @@ export default function Certificates() {
                     dragConstraints={{ right: 0, left: -width }} className='inner-carousel'>
                     {images.map(image => {
                         return (
-                            <motion.div className='item' key={image}>
+                            <motion.div className='item' key={image} >
                                 <img src={image} alt=""></img>
                             </motion.div>
                         )
