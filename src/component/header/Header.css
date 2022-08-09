@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -36,12 +36,12 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
+    width: 20rem;
     height: 40rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
-    border-radius: 2rem 12rem 2rem 12rem;
+    border-radius: 2rem 12rem 2rem 15rem;
     overflow: hidden;
     padding: 5rem 0 0 0;
     border-bottom: 2rem solid var(--color-primary-variant);
@@ -77,7 +77,9 @@ header {
     }
 
     .me {
-        width: 22rem;
+        width: 20rem;
         height: 100vh;
     }
+
+
 }
