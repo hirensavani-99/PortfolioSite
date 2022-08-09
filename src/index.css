@@ -139,7 +139,7 @@ img {
     width: var(--container-width-sm);
   }
 
-  secttion>h2 {
+  section>h2 {
     margin-top: 2rem;
   }
 }

@@ -32,6 +32,27 @@
     margin-bottom: 1rem;
 }
 
+.title__container {
+    display: flex;
+    height: 5rem;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    margin-top: 3rem;
+
+}
+
+.title__container>h2 {
+    color: var(--color-light);
+
+}
+
+.title__img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    border-radius: 0.2rem;
+}
 
 @media screen and (max-width:1024px) {
     .portfolio__container {
