@@ -16,7 +16,7 @@ export default function Certificates() {
     return (
         <section id="certificates" className='Certificates'>
 
-            <h5>Earened</h5>
+            <h5>awarded</h5>
             <h2>Certificates</h2>
 
             <motion.div ref={carousel} className="carousel" whileTap={{ cursor: "grabbing" }}>

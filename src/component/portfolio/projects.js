@@ -10,6 +10,9 @@ import PortFolio from '../../assests/PortfolioSite.PNG'
 import BusApp from '../../assests/BusApp.PNG'
 import WeatherApp from '../../assests/WeatherApp.PNG'
 import Chatapp from '../../assests/chatapp.PNG'
+import Twitter from '../../assests/twitterClone.PNG'
+import smartSocial from '../../assests/smartsocial.PNG'
+import EventManagement from '../../assests/EventManagement.PNG'
 
 export const VanillaJavscriptProjects = [
     {
@@ -95,6 +98,20 @@ export const NextJsProjects = [
     {
         name: "Twitter Clone",
         github: "https://github.com/hirensavani-99/TwitterClone-.git",
-        picture: WeatherApp
+        picture: Twitter
+    }
+]
+
+
+export const MernProjects = [
+    {
+        name: "Smart social",
+        github: "https://github.com/hirensavani-99/TwitterClone-.git",
+        picture: smartSocial
+    },
+    {
+        name: "Event management",
+        github: "https://github.com/hirensavani-99/TwitterClone-.git",
+        picture: EventManagement
     }
 ]

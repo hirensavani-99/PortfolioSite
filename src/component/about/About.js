@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import './About.css'
 import ME from '../../assests/picAbout.png'
-import { FaAward } from "react-icons/fa"
+import { FaAward, FaLaptopCode } from "react-icons/fa"
 import { VscFolderLibrary } from "react-icons/vsc"
 
 
@@ -23,9 +23,9 @@ export default function About() {
                 <div className='about__content'>
                     <div className='about__cards'>
                         <article className='about__card'>
-                            <FaAward className='about__icon' />
+                            <FaLaptopCode className='about__icon' />
                             <h5>Experience</h5>
-                            <small>3 monthes working</small>
+                            <small>3 months working</small>
                         </article>
 
                         <article className='about__card'>
@@ -36,20 +36,21 @@ export default function About() {
 
                         <article className='about__card'>
                             <FaAward className='about__icon' />
-                            <h5>Experience</h5>
-                            <small>3 monthes working</small>
+                            <h5>Achievement</h5>
+                            <small>4+ Certificates</small>
                         </article>
                     </div>
 
-                    <p>I am self taught computer passionate. I started learning
-                        programming about 2.5 years ago from Python & JavaScript.
+                    <p>First class Computer Science graduate with outstanding performance in the field of Web Development. I started learning
+                        programming about 3 years ago with Python & JavaScript.
                         Meanwhile I was learning web development and loose myself into
                         it.
-                        I want to see myself as a Web 3 develpoer so, recently i've started
-                        to learn about Blockchain development and Web 3.0.
-                    </p>
 
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    </p>
+                    <p>I want to see myself as a Web 3 developer so, recently i've started
+                        to explore about Blockchain development and Web 3.0.</p>
+
+                    <a href="#contact" className='btn btn-primary'>Lets Interact</a>
                 </div>
             </div>
         </section>

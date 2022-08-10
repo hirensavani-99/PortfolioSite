@@ -12,7 +12,7 @@ export default function Header() {
             <motion.div className="progress-bar" style={{ scaleX: scrollYProgress }} />
             <div className='container header__container'>
                 <motion.h5 initial={{ x: '-100VW' }} animate={{ x: 0 }} transition={{ type: 'spring', duration: 1, bounce: 0.3 }}>Hello I'm</motion.h5>
-                <motion.h2 initial={{ x: '100VW' }} animate={{ x: 0 }} transition={{ type: 'spring', duration: 1, bounce: 0.3 }}>Hiren</motion.h2>
+                <motion.h2 initial={{ x: '100VW' }} animate={{ x: 0 }} transition={{ type: 'spring', duration: 1, bounce: 0.3 }}>Hiren Savani</motion.h2>
                 <motion.h5 className='text-light' initial={{ y: '-100VW' }} animate={{ y: 0 }} transition={{ type: 'spring', duration: 1, bounce: 0.3 }}>Fullstack Developer</motion.h5>
                 <CTA />
                 <HeaerSocials />

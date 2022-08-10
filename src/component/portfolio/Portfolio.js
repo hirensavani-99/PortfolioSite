@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import Image1 from '../../assests/readersclub.PNG'
-import { VanillaJavscriptProjects, ReactJsProjects, NodeJsProjects } from './projects'
+import { VanillaJavscriptProjects, ReactJsProjects, NodeJsProjects, NextJsProjects, MernProjects } from './projects'
 import JsImage from '../../assests/download.png'
 import ReactJsImage from '../../assests/reactjs.png'
 import Node from '../../assests/nodejs.webp'
@@ -23,7 +23,7 @@ export default function Portfolio() {
 
                 {
 
-                    NodeJsProjects.map(project => {
+                    MernProjects.map(project => {
                         return (
                             <article className='portfolio__items'>
                                 <div className='portfolio__item-image'>
@@ -53,7 +53,7 @@ export default function Portfolio() {
 
                 {
 
-                    NodeJsProjects.map(project => {
+                    NextJsProjects.map(project => {
                         return (
                             <article className='portfolio__items'>
                                 <div className='portfolio__item-image'>
