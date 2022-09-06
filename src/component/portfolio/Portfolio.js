@@ -30,10 +30,18 @@ export default function Portfolio() {
                                     <img src={project.picture} alt="" />
                                 </div>
                                 <h3>{project.name}</h3>
+                                <ul className='ul__style'>
+                                {project.descriotion.map(desc=>(
+                                    <li key={desc}>{desc}</li>
+                                ))}
+                                
+                                </ul>
                                 <div className='portfolio__item-cta'>
                                     <a href={project.github} className='btn' target="_blank">Github</a>
                                     {project?.live && <a href={project?.live} className='btn btn-primary' target="_blank">Live demo</a>}
+                                    {project?.thesis && <a href={project.thesis} className="btn" download>Download Thesis</a>}
                                 </div>
+                               
 
                             </article>
                         )
@@ -60,9 +68,16 @@ export default function Portfolio() {
                                     <img src={project.picture} alt="" />
                                 </div>
                                 <h3>{project.name}</h3>
+                                <ul className='ul__style'>
+                                {project.descriotion.map(desc=>(
+                                    <li key={desc}>{desc}</li>
+                                ))}
+                                
+                                </ul>
                                 <div className='portfolio__item-cta'>
                                     <a href={project.github} className='btn' target="_blank">Github</a>
                                     {project?.live && <a href={project?.live} className='btn btn-primary' target="_blank">Live demo</a>}
+                                    
                                 </div>
 
                             </article>
@@ -88,6 +103,12 @@ export default function Portfolio() {
                                     <img src={project.picture} alt="" />
                                 </div>
                                 <h3>{project.name}</h3>
+                                <ul className='ul__style'>
+                                {project.descriotion.map(desc=>(
+                                    <li key={desc}>{desc}</li>
+                                ))}
+                                
+                                </ul>
                                 <div className='portfolio__item-cta'>
                                     <a href={project.github} className='btn' target="_blank">Github</a>
                                     {project?.live && <a href={project?.live} className='btn btn-primary' target="_blank">Live demo</a>}
@@ -118,6 +139,8 @@ export default function Portfolio() {
                                     <img src={project.picture} alt="" />
                                 </div>
                                 <h3>{project.name}</h3>
+                                <ul className='ul__style'>             
+                                </ul>
                                 <div className='portfolio__item-cta'>
                                     <a href={project.github} className='btn' target="_blank">Github</a>
                                     {project?.live && <a href={project?.live} className='btn btn-primary' target="_blank">Live demo</a>}

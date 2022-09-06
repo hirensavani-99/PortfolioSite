@@ -83,6 +83,13 @@ export const Journey = [
         hr: <hr className='horizontalLine' />
     },
     {
+        name: "Aimbot Business Service",
+        role: "IT Support Technician (Freelancing)",
+        from: "08-2021 - 04-2022",
+        logo: <MdWork className='experience__details-icon' />,
+        hr: <hr className='horizontalLine' />
+    },
+    {
         name: "Opole university of technology",
         role: "Student",
         from: "09-2018 - 03-2022",

@@ -27,7 +27,7 @@ export default function Experience() {
                                                 <h4>{skill.name}</h4>
                                                 <h5 className='experience__role'>{skill.role}</h5>
                                                 <small className="text-light">{skill.skillrate}</small>
-                                                <h6 className="text-light">attended at : {skill.from}</h6>
+                                                <h6 className="text-light">attended On : {skill.from}</h6>
                                             </div>
 
 

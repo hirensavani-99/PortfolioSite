@@ -25,7 +25,7 @@ export default function About() {
                         <article className='about__card'>
                             <FaLaptopCode className='about__icon' />
                             <h5>Experience</h5>
-                            <small>3 months working</small>
+                            <small>1 year working</small>
                         </article>
 
                         <article className='about__card'>

@@ -20,6 +20,8 @@
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    height: 12rem;
+    width: 100%;
 }
 
 .portfolio__items h3 {
@@ -52,6 +54,16 @@
     height: 2.5rem;
     margin-left: 1rem;
     border-radius: 0.2rem;
+}
+
+.ul__style{
+    display: block;
+    list-style-type: disc;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
 }
 
 @media screen and (max-width:1024px) {

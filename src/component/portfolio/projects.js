@@ -13,6 +13,7 @@ import Chatapp from '../../assests/chatapp.PNG'
 import Twitter from '../../assests/twitterClone.PNG'
 import smartSocial from '../../assests/smartsocial.PNG'
 import EventManagement from '../../assests/EventManagement.PNG'
+import Thesis from '../../assests/Thesis-HirenSavani.pdf'
 
 export const VanillaJavscriptProjects = [
     {
@@ -74,7 +75,12 @@ export const ReactJsProjects = [
     {
         name: "Bus Application",
         github: "https://github.com/hirensavani-99/busservice.git",
-        picture: BusApp
+        picture: BusApp,
+        descriotion:[
+            "Search bus by city",
+            "Login/logout by admin",
+            "Final project of collabera training"
+        ]
     }
 ]
 
@@ -83,13 +89,23 @@ export const NodeJsProjects = [
         name: "Weather Application",
         github: "https://github.com/hirensavani-99/Weather_app.git",
         live: "https://kano-weather-app.herokuapp.com/",
-        picture: WeatherApp
+        picture: WeatherApp,
+        descriotion:[
+            "Created with nodejs and handlebar",
+            "First time tried to use external API",
+            "Search by city"
+        ]
     },
     {
         name: "Real Time Chat Application",
         github: "https://github.com/hirensavani-99/Talk.git",
         live: "https://savani-talk.herokuapp.com/",
-        picture: Chatapp
+        picture: Chatapp,
+        descriotion:[
+            "Implementation of socket io",
+            "Enter with room number",
+            "share messages and location"
+        ]
     }
 ]
 
@@ -98,7 +114,12 @@ export const NextJsProjects = [
     {
         name: "Twitter Clone",
         github: "https://github.com/hirensavani-99/TwitterClone-.git",
-        picture: Twitter
+        picture: Twitter,
+        descriotion:[
+            "Sign in with Twitter ",
+            "Write Tweet",
+            "Like Tweet"
+        ]
     }
 ]
 
@@ -107,11 +128,24 @@ export const MernProjects = [
     {
         name: "Smart social",
         github: "https://github.com/hirensavani-99/TwitterClone-.git",
-        picture: smartSocial
+        picture: smartSocial,
+        descriotion:[
+            "Log/Logout/signUp functionality",
+            "Upload post like post",
+            "Search and chatting with friends",
+            "All the necessary CRUD operations social media site require"
+        ]
     },
     {
         name: "Event management",
         github: "https://github.com/hirensavani-99/TwitterClone-.git",
-        picture: EventManagement
+        picture: EventManagement,
+        thesis : Thesis,
+        descriotion:[
+            "Log/Logout/signUp functionality",
+            "Buy pass and generate ticket",
+            "Register your Events and invite people",
+            "Get help from partners to organize your events"
+        ]
     }
 ]
